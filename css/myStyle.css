@@ -65,64 +65,85 @@ color:#000000;
 text-align: right;
 padding: 100px;
 width:50%;
-font-size:50px;
-font-weight:bold;
 }
-
 .logo1{
-display:inline-block;
-font-size:15px;
-width: 50%;
+float:right;
+text-align:center;
+font-family:roboto;
+font-size:72px;
+line-height:82.38px;
+font-weight:bold;
+width:50%;
+padding:40px;
+}
+.img{
+position: absolute;
+width: 399px;
+height: 266px;
+left: 207px;
+top: 103px;
+margin:40px;
+
+}
+a:hover {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: inset 0px 2px 15px white;
+    border-radius: 5px;
 }
 .square2{
- float:left;
+ display:inline-block;
  height: 100px;
  width: 100px;
  background: #C4C4C4;
  border-radius:5px;
- margin:15px;
+ margin:30px;
 }
 .square3{
- float:left;
+ display:inline-block;
  height: 100px;
  width: 100px;
  background: #C4C4C4;
  border-radius:5px;
- margin:15px;
+ margin:30px;
 }
 .square4{
- float:left;
+ display:inline-block;
  height: 100px;
  width: 100px;
  background: #C4C4C4;
  border-radius:5px;
- margin:15px;
+ margin:30px;
+}
+.square{
+ display:inline-block;
+ height: 100px;
+ width: 100px;
+ background: #C4C4C4;
+ border-radius:5px;
+ margin:30px;
+}
+footer{
+ background-color:378FE7;
+ font-size:10px;
+ padding:10px;
+ margin-bottom:0px;
 }
 
-.square{
- float:left;
- height: 100px;
- width: 100px;
- background: #C4C4C4;
- border-radius:5px;
- margin:15px;
-}
- footer{
- text-align:center;
- background-color:378FE7;
- font-size:20px;
- padding:10px;
-}
 .bottomnav{
+text-align:center
 background-color:378FE7;
 display:inline-block;
 font-size:15px;
-text-align:center;
+width:50%;
 }
 .logo2{
 display:inline-block;
 color:white;
-font-size:20px;
+width:50%;
+font-size:15px;
 font-weight:bold;
+font-family:roboto;
+text-align:center;
 }
 

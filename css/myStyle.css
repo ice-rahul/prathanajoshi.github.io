@@ -1,0 +1,128 @@
+/* CSS Document */
+@font-face {
+  font-family: roboto;
+  src: url('../font/Roboto-Regular.ttf');
+}
+
+html,body{
+	cursor: url('../images/pointer.svg'), auto;
+	padding:0;
+	margin:0;
+	font-family:roboto;
+}
+header{
+ text-align:left;
+ background-color:378FE7;
+ font-size:20px;
+ padding:10px;
+}
+
+.topnavbar{
+background-color:378FE7;
+display:inline-block;
+font-size:15px;
+width: 80%;
+text-align: end;
+}
+
+.logo{
+display:inline-block;
+color:white;
+width:15%;
+font-size:20px;
+font-weight:bold;
+}
+
+.topnavbar a{
+text-decoration:none;
+padding-left:10px;
+padding-right:10px;
+color:white;
+font-weight:bold;
+}
+.github{
+position:absolute;
+solid:#FFFFFF;
+border:2px;
+}
+.linkedin{
+position:absolute;
+solid:#FFFFFF;
+border:2px;
+}
+.facebook{
+position:absolute;
+solid:#FFFFFF;
+border:2px;
+}
+.youtube{
+position:absolute;
+solid:#FFFFFF;
+border:2px;
+}
+.section{
+color:#000000;
+text-align: right;
+padding: 100px;
+width:50%;
+font-size:50px;
+font-weight:bold;
+}
+
+.logo1{
+display:inline-block;
+font-size:15px;
+width: 50%;
+}
+.square2{
+ float:left;
+ height: 100px;
+ width: 100px;
+ background: #C4C4C4;
+ border-radius:5px;
+ margin:15px;
+}
+.square3{
+ float:left;
+ height: 100px;
+ width: 100px;
+ background: #C4C4C4;
+ border-radius:5px;
+ margin:15px;
+}
+.square4{
+ float:left;
+ height: 100px;
+ width: 100px;
+ background: #C4C4C4;
+ border-radius:5px;
+ margin:15px;
+}
+
+.square{
+ float:left;
+ height: 100px;
+ width: 100px;
+ background: #C4C4C4;
+ border-radius:5px;
+ margin:15px;
+}
+ footer{
+ text-align:center;
+ background-color:378FE7;
+ font-size:20px;
+ padding:10px;
+}
+.bottomnav{
+background-color:378FE7;
+display:inline-block;
+font-size:15px;
+text-align:center;
+}
+.logo2{
+display:inline-block;
+color:white;
+font-size:20px;
+font-weight:bold;
+}
+

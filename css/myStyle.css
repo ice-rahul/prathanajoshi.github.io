@@ -24,6 +24,11 @@ font-size:15px;
 width: 80%;
 text-align: end;
 }
+.desktop{
+position: relative;
+width: 1440px;
+height: 1024px;
+}
 
 .logo{
 display:inline-block;
@@ -40,10 +45,15 @@ padding-right:10px;
 color:white;
 font-weight:bold;
 }
-.github{
-position:absolute;
+#github{
+position: absolute;
+left: 8.33%;
+right: 10.42%;
+top: 4.06%;
+bottom: 8.33%;
 solid:#FFFFFF;
 border:2px;
+text-align:right
 }
 .linkedin{
 position:absolute;
@@ -67,23 +77,22 @@ padding: 100px;
 width:50%;
 }
 .logo1{
-float:right;
+float:right
 text-align:center;
 font-family:roboto;
-font-size:72px;
-line-height:82.38px;
+font-size:70px;
+line-height:80px;
 font-weight:bold;
-width:50%;
-padding:40px;
+width:300px;
+height:100px;
+top:120px;
+left:1000px;
 }
 .img{
-position: absolute;
-width: 399px;
-height: 266px;
+width: 750px;
+height: 300px;
 left: 207px;
 top: 103px;
-margin:40px;
-
 }
 a:hover {
     padding-top: 5px;
@@ -91,32 +100,51 @@ a:hover {
     box-shadow: inset 0px 2px 15px white;
     border-radius: 5px;
 }
-#container {
-  height: 125px;
-  text-align: justify;
-  min-width: 600px;
+#square1{
+position: absolute;
+width: 193px;
+height: 189px;
+left: 184px;
+top: 478px;
+background: #C4C4C4;
+border-radius: 5px;
 }
-#container div {
- width: 100px;
-height: 100px;
-left: 500px;
-top:200px;
-  display: inline-block;
-  background: #C4C4C4;
- border-radius: 5px;
-  
+#square2{
+position: absolute;
+width: 193px;
+height: 189px;
+left: 477px;
+top: 478px;
+background: #C4C4C4;
+border-radius: 5px;
 }
-#container:after {
-  content: '';
-  width: 100%; 
-  display: inline-block;
+#square3{
+position: absolute;
+width: 193px;
+height: 189px;
+left: 770px;
+top: 478px;
+background: #C4C4C4;
+border-radius: 5px;
 }
+#square4{
+position: absolute;
+width: 193px;
+height: 189px;
+left: 1063px;
+top: 478px;
+background: #C4C4C4;
+border-radius: 5px
+}
+
 footer{
- background-color:378FE7;
- font-size:10px;
- padding:10px;
- margin-bottom:0px;
- text-align:center;
+ position: absolute;
+width: 1440px;
+height: 37px;
+left: 0px;
+top: 987px;
+background: #378FE7;
+text-align:center
 }
 
 .bottomnav{

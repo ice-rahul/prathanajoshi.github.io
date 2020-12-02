@@ -91,43 +91,32 @@ a:hover {
     box-shadow: inset 0px 2px 15px white;
     border-radius: 5px;
 }
-.square2{
- display:inline-block;
- height: 100px;
- width: 100px;
- background: #C4C4C4;
- border-radius:5px;
- margin:30px;
+#container {
+  height: 125px;
+  text-align: justify;
+  min-width: 600px;
 }
-.square3{
- display:inline-block;
- height: 100px;
+#container div {
  width: 100px;
- background: #C4C4C4;
- border-radius:5px;
- margin:30px;
+height: 100px;
+left: 500px;
+top:200px;
+  display: inline-block;
+  background: #C4C4C4;
+ border-radius: 5px;
+  
 }
-.square4{
- display:inline-block;
- height: 100px;
- width: 100px;
- background: #C4C4C4;
- border-radius:5px;
- margin:30px;
-}
-.square{
- display:inline-block;
- height: 100px;
- width: 100px;
- background: #C4C4C4;
- border-radius:5px;
- margin:30px;
+#container:after {
+  content: '';
+  width: 100%; 
+  display: inline-block;
 }
 footer{
  background-color:378FE7;
  font-size:10px;
  padding:10px;
  margin-bottom:0px;
+ text-align:center;
 }
 
 .bottomnav{

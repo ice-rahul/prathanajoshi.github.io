@@ -24,8 +24,7 @@ font-size:15px;
 width: 80%;
 text-align: end;
 }
-
-.logo{
+.text{
 display:inline-block;
 color:white;
 width:15%;
@@ -39,9 +38,6 @@ padding-right:10px;
 color:white;
 font-weight:bold;
 }
-a.github:hover{
-background:red;
-}
 .topnavbar a img{
 height:20px;
 vertical-align:bottom;
@@ -49,7 +45,7 @@ vertical-align:bottom;
 .section{color:#000000;
 text-align: center;
 }
-.logo1{
+.text1{
 font-family:roboto;
 font-size:60px;
 line-height:100px;
@@ -63,10 +59,51 @@ vertical-align: top;
 }
 .separator{
 margin-left:20px;
+margin-right:20px;
+display: inline-block;
+width: 8px;
+height: 18px;
+vertical-align: bottom;
+background-size: cover;
 }
 .icons{
+width:8px;
+height:18px;
+margin-right:5px;
+margin-left:5px;
+display: inline-block;
+vertical-align:bottom;
 padding-left:5px !important;
 padding-right:5px  !important;
+Background-size: cover;
+}
+.github{
+background-image:url(../images/github.svg);
+}
+.github:hover,
+.github:focus{
+background-image:url(../images/github_selected.svg);
+}
+.linkedin{
+background-image:url(../images/linkedin.svg);
+}
+.linkedin:hover,
+.linkedin:focus{
+background-image:url(../images/linkedin_selected.svg);
+}
+.facebook{
+background-image:url(../images/facebook.svg);
+}
+.facebook:hover,
+.facebook:focus{
+background-image:url(../images/facebook_selected.svg);
+}
+.youtube{
+background-image:url(../images/youtube.svg);
+}
+.youtube:hover,
+.youtube:focus{
+background-image:url(../images/youtube_selected.svg);
 }
 .img{
 width:48%;
@@ -98,7 +135,6 @@ color:#FFFFFF;
 font-weight:bold;
 font-size:1.1em;
 }
-
 #square p{
 	color: black;
     position: absolute;

@@ -1,0 +1,13 @@
+/* CSS Document */
+.square{
+position:relative;
+width: 100%;
+height: 175px;
+background: #C4C4C4;
+border-radius: 5px;
+background: url(../images/img2.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: #C4C4C4;
+}

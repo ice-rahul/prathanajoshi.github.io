@@ -1,13 +1,44 @@
 /* CSS Document */
 .square{
 position:relative;
-width: 100%;
-height: 175px;
+width: 20%;
+height: 200px;
 background: #C4C4C4;
 border-radius: 5px;
+}
+.img{
+position:absolute;
+top:0;
+width:100%;
+height:100px;
 background: url(../images/img2.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-background-color: #C4C4C4;
+transition:1s;
 }
+.content{
+position:absolute;
+width:100%;
+height:100px;
+bottom:0;
+transition:1s;
+}
+
+.img:hover{
+height:200px;
+cursor:pointer;
+}
+.content:hover{
+height:200px;
+cursor:pointer;
+z-index:1;
+background:red;
+}
+.innercontent{  
+text-align:center;
+line-height:1em;
+padding:5px;
+}
+
+

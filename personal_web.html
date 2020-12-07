@@ -7,16 +7,16 @@
 <title>Untitled Document</title>
 <body>
   <header>
-    <div class="text">PJ</div>
-    <div class="topnavbar"> 
+    <div class="text" onclick="opendrawer()">PJ</div>
+    <div class="topnavbar" id="topnavbar"> 
 		<a class="active" href="#home">Home</a> 
 		<a href="#about">About</a> 
 		<a href="#projects">Projects</a> 
 		<a href="#contact">Contact</a> 
-		<a href="#contact"  class="separator icons github"></a> 
-		<a href="#contact"  class="icons linkedin"></a> 
-		<a href="#contact"  class="icons facebook"></a> 
-		<a href="#contact"  class="icons youtube"></a> 
+		<a href="#contact"  class="separator icons github">&nbsp;</a> 
+		<a href="#contact"  class="icons linkedin">&nbsp;</a> 
+		<a href="#contact"  class="icons facebook">&nbsp;</a> 
+		<a href="#contact"  class="icons youtube">&nbsp;</a> 
 	</div>
   </header>
   <section> 
@@ -33,5 +33,11 @@
   <footer>
     All rights reserved, 2020
   </footer>
+  <script>
+  function opendrawer(){
+  	document.getElementById("topnavbar").style.left=0;
+	document.getElementById("topnavbar").style.display="initial";
+  }
+  </script>
 </body>
 </html>

@@ -3,7 +3,6 @@
   font-family: roboto;
   src: url('../font/Roboto-Regular.ttf');
 }
-
 html,body{
 	cursor: url('../images/pointer.svg'), auto;
 	padding:0;
@@ -18,13 +17,16 @@ header{
  padding:10px;
 }
 .topnavbar{
+position:relative;
 background-color:378FE7;
 display:inline-block;
 font-size:15px;
 width: 80%;
 text-align: end;
+transition:2s;
 }
 .text{
+position:relative;
 display:inline-block;
 color:white;
 width:15%;
@@ -42,74 +44,126 @@ font-weight:bold;
 height:20px;
 vertical-align:bottom;
 }
-.section{color:#000000;
+.section{
+color:#000000;
 text-align: center;
+position:relative;
+animation-name:sectionAnimate;
+animation-duration:4s;
 }
+
+section{
+	width:100%;
+	overflow:hidden;
+}
+
+@keyframes sectionAnimate{
+	0%{
+		opacity:0.1;
+		bottom:-200px;
+	}
+	100%{
+		opacity:1.0;
+		bottom:0;
+	}
+}
+
 .text1{
 font-family:roboto;
-font-size:60px;
+font-size: 4.5vw;
+text-align:center;
 line-height:100px;
 font-weight:bold;
 width:48%;
 height:100px;
 padding-top:50px;
-padding-right:50px;
+padding-right:2vw;
 display:inline-block;
 vertical-align: top;
+position:relative;
+animation-name:textAnimate;
+animation-duration:4s;
 }
+
+@keyframes textAnimate{
+	0%{
+		opacity:0.1;
+		right:-200px;
+	}
+	100%{
+		opacity:1.0;
+		right:0;
+	}
+}
+
 .separator{
-margin-left:20px;
-margin-right:20px;
-display: inline-block;
+margin-left:20px !important;
 width: 8px;
 height: 18px;
 vertical-align: bottom;
 background-size: cover;
 }
 .icons{
-width:8px;
-height:18px;
 margin-right:5px;
 margin-left:5px;
-display: inline-block;
 vertical-align:bottom;
-padding-left:5px !important;
-padding-right:5px  !important;
-Background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
 }
 .github{
 background-image:url(../images/github.svg);
 }
-.github:hover,
-.github:focus{
+.github:hover{
 background-image:url(../images/github_selected.svg);
+background-size: 80%;
+box-shadow: inset 0px 0px 0px black;
+background-color: black;
 }
 .linkedin{
 background-image:url(../images/linkedin.svg);
 }
-.linkedin:hover,
-.linkedin:focus{
+.linkedin:hover{
 background-image:url(../images/linkedin_selected.svg);
+background-size: 80%;
+box-shadow: inset 0px 0px 0px #0077b5;
+background-color: #0077b5;
 }
 .facebook{
 background-image:url(../images/facebook.svg);
 }
-.facebook:hover,
-.facebook:focus{
+.facebook:hover{
 background-image:url(../images/facebook_selected.svg);
+background-size: 80%;
+box-shadow: inset 0px 0px 0px #4867aa;
+background-color: #4867aa;
 }
 .youtube{
 background-image:url(../images/youtube.svg);
 }
-.youtube:hover,
-.youtube:focus{
+.youtube:hover{
 background-image:url(../images/youtube_selected.svg);
+background-size: 80%;
 }
 .img{
+position: relative;
 width:48%;
 height: 300px;
 padding-top:50px;
 display:inline-block;
+animation-name:imgAnimate;
+animation-duration:4s;
+}
+
+@keyframes imgAnimate{
+	0% {
+		left: -200px;
+		opacity:0.1;
+	}
+	100% {
+		left:0;
+		opacity:1.0;
+	}
 }
 a:hover {
     padding-top: 5px;
@@ -125,7 +179,7 @@ background: #C4C4C4;
 border-radius: 5px;
 display:inline-block;
 margin:15px;
-background: url(../images/img1.jpg);
+background: url(../images/undraw_Short_bio_re_fmx0.svg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -145,7 +199,14 @@ font-size:1.1em;
     padding: 10px 15px 10px 15px;
     bottom: 0;
     right: 0;
-    margin: 0;
+    margin: 0;	
+	transition:1s;
+}
+#square p:hover{
+top:0;
+left:0;
+cursor:pointer;
+background:white;
 }
 
 footer{
@@ -174,3 +235,36 @@ font-family:roboto;
 text-align:center;
 }
 
+@media only screen and (max-width: 600px) {
+  .topnavbar {
+    left: -350px;
+    display: none;
+	position: absolute;
+    height: 100vh;
+    z-index: 10;
+  }
+  header{
+   	text-align:center;
+  }
+  .img{
+ 	width: 90%;
+    padding:0px 15px 0px 15px;
+	margin-top: -15px;
+    margin-bottom: -15px;
+  }
+  section{
+  text-align:center;
+  }
+  .text1{
+  position: absolute;
+    right: 5%;
+    bottom: 30%;
+    line-height: 1.5em;
+  }
+  .text{
+  	width:100%;
+  }
+  .topnavbar a{
+  display:block;
+  }
+}

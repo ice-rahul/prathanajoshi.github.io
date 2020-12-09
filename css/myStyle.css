@@ -16,6 +16,7 @@ header{
  font-size:20px;
  padding:10px;
 }
+
 .topnavbar{
 position:relative;
 background-color:378FE7;
@@ -247,19 +248,20 @@ text-align:center;
    	text-align:center;
   }
   .img{
- 	width: 90%;
+ 	width: 80%;
     padding:0px 15px 0px 15px;
 	margin-top: -15px;
-    margin-bottom: -15px;
+    margin-bottom: -115px;
   }
   section{
   text-align:center;
   }
   .text1{
-  position: absolute;
-    right: 5%;
+  position: relative;
+    right: -20%;
     bottom: 30%;
     line-height: 1.5em;
+	padding-bottom: 40px
   }
   .text{
   	width:100%;
@@ -267,4 +269,31 @@ text-align:center;
   .topnavbar a{
   display:block;
   }
+ #square{
+    position: relative;
+    width: 40%;
+    height: 16%;
+    background: #C4C4C4;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+    background: url(../images/undraw_Short_bio_re_fmx0.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #C4C4C4;
+    vertical-align: top;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1em;
+	bottom:60px;
+}
+ .test:after {
+  content: '\2807';
+  font-size: 40px;
+  color:#FFFFFF;
+  padding-left:325px;
+  }
+  
+ 
 }
